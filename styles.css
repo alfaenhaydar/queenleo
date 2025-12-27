@@ -1,11 +1,11 @@
 /* ===== CSS VARIABLES ===== */
 :root {
     /* Colors */
-    --primary-color: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #818cf8;
-    --secondary-color: #ec4899;
-    --accent-color: #f59e0b;
+    --primary-color: #ea580c;
+    --primary-dark: #c2410c;
+    --primary-light: #fb923c;
+    --secondary-color: #f59e0b;
+    --accent-color: #d97706;
 
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
@@ -284,7 +284,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #fdba74 0%, #ea580c 100%);
     opacity: 0.05;
     z-index: -1;
 }
@@ -296,7 +296,7 @@ button {
     right: -20%;
     width: 800px;
     height: 800px;
-    background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(234, 88, 12, 0.1) 0%, transparent 70%);
     border-radius: 50%;
     animation: float 20s ease-in-out infinite;
 }
@@ -367,12 +367,12 @@ button {
 .btn-primary {
     background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
     color: white;
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 4px 15px rgba(234, 88, 12, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 6px 20px rgba(234, 88, 12, 0.4);
 }
 
 .btn-secondary {
@@ -450,7 +450,7 @@ button {
 .section-tag {
     display: inline-block;
     padding: var(--spacing-xs) var(--spacing-md);
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+    background: linear-gradient(135deg, rgba(234, 88, 12, 0.1), rgba(245, 158, 11, 0.1));
     color: var(--primary-color);
     font-size: var(--font-size-sm);
     font-weight: 700;
@@ -551,7 +551,7 @@ button {
     position: relative;
     width: 100%;
     height: 300px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #fdba74 0%, #ea580c 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -633,12 +633,12 @@ button {
     border-radius: var(--radius-lg);
     font-weight: 600;
     transition: all var(--transition-base);
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 4px 15px rgba(234, 88, 12, 0.3);
 }
 
 .add-to-cart-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 6px 20px rgba(234, 88, 12, 0.4);
 }
 
 .add-to-cart-btn:active {
@@ -754,7 +754,7 @@ button {
 .cart-item-image {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #fdba74 0%, #ea580c 100%);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
